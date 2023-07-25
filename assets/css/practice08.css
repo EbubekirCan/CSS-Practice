@@ -1,0 +1,53 @@
+body{
+    background-image: url(../img/more-leaves.png);
+    background-size: 40%;
+}
+
+.nav-el{
+    background-color:orange;  
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+.nav-el a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+ 
+
+.div-el{
+    background-color: thistle;
+    width: 30%;
+    
+}
+
+.div-el p{
+    font-size: 1rem;
+    padding: 1rem;
+   text-align: center;
+   margin-top: 1rem;
+    
+    
+}
+   h2.h2-el{
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    
+}
+
+ul.ul-el{
+    list-style:none ;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-el a:hover{
+    background-color: gray;
+    color: white;
+}
+
